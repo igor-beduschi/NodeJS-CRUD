@@ -25,7 +25,7 @@ mongoose.connection.on('error', function() {
     process.exit();
 });
 mongoose.connection.once('open', function() {
-    console.log("Successfully connected to the database");
+    console.log("Conectado ao banco com sucesso");
 })
 
 // define a simple route
